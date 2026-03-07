@@ -33,10 +33,16 @@ if ( have_posts() ) :
     </article>
 <?php
     endwhile;
+?>
+<?php the_posts_pagination( array(
+    'prev_text' => __( 'Previous', 'mh-swiss-theme' ),
+    'next_text' => __( 'Next', 'mh-swiss-theme' ),
+) ); ?>
+<?php
 else :
     echo '<p>' . esc_html__( 'Sorry, no posts found.', 'mh-swiss-theme' ) . '</p>';
 endif;
 ?>
 </main>
-
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
