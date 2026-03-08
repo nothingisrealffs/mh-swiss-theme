@@ -60,7 +60,7 @@ endwhile; endif;
 
 This establishes if there are any posts at all as `have_posts()` will return true if there are posts, while `have_posts()` keeps it going as long as there are posts. `the_post()` is just the data that then displays title, content, date, author, into a set of global variables that the template tags read from, and can dynamically build what is necessary to get it going. 
 
-Fascinatingly, there are some that start with `the_` and some `get_the_` - the difference being one shows output directly, basically calls a print function (BASICALLY, IT'S NOT ACTUAL) and `get_the_` is how you can get the data to be able to use elsewhere. There are others, like `_title`, `_content`, and `_excerpt` which can get some of the more specific parts to be called down, and the get_the/the structure applies past just `the_post()`
+Fascinatingly, there are some that start with `the_` and some `get_the_` - the difference being one shows output directly, in essense just prints to page, and `get_the_` is how you can get the data to be able to use elsewhere. There are others, like `_title`, `_content`, and `_excerpt` which can get some of the more specific parts to be called down, and the get_the/the structure applies past just `the_post()`
 
 And to make sure that i'm mentioning these properly:
 1. we have `_title` which will output the post title either to the page (`the_`) or to a variable (`get_the_`).
