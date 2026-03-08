@@ -3,6 +3,7 @@ Theme for class, variation of the Swiss Theme
 As part of our assignment we were asked to look at how Digital News Publications approach their visual design, to look at outlets like The New York Times, The Atlantic, and Politico for inspiration on how they structure their layouts.
 
 We are supposed to pay attention to:
+
   1.Typographic Scale
   2.Whitespace and grid structure
   3.Restrained Color Usage
