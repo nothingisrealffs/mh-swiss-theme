@@ -33,13 +33,20 @@ This helped me settle on a version of "Swiss" theme, as noted:
 
 I like the idea that it kept my minimalism idea with a design element that is supposed to make it look purposeful. I created more pages than required because I was not paying attention to the requirements and instead pulled from the notes.
 
+It occurred during my final read through before submission that I never did properly define "Swiss Style" within the Site Design; so I figured I would take a second and quote the texts directly:
+> https://www.zuerich.com/en/art-culture/zurich-avantgarde/swiss-graphics-typography
+
+> "Swiss Style is based on three principles: simplicity, objectivity, and readability. It is characterized by minimalist graphics, a modular grid system, asymmetrical layouts, and sans-serif fonts."
+
+I learned that, then messed with the fonts to make it something more "Unique". I came across brutalistic website fonts, and stuck then with the groups that I did emphasizing readability.  
+
 ---
 
 ## WordPress Theme Structure and Architecture
 
 Wordpress is interestingly split apart into disparate entities for what i thought it would be. The idea is that the Styles and the Index are really the only important things to be looked at here, everything else is gravy. So, required files would be styles.css and index.php; with those required files the site can respond 100% of the time, if not ugly-looking.
 
-When someone visits a URL on my site, Wordpress runs through a quick `if_exists()` that helps it establish if a template file exists for a specific type of content, starting from the most specific and working for the most general; much like a coin slot machine, you put a quarter in and it will not fall into the hole the size of a dime. For a single post it checks: does `single-post-{###}.php` exist? No? Does archive? Yeah? Use it!
+When someone visits a URL on my site, Wordpress runs through a quick `if_exists()`, essentially it checks its template hierarchy to determine which template file should render the page, and that helps it establish if a template file exists for a specific type of content starting from the most specific and working for the most general. Much like a coin slot machine, you put a quarter in and it will not fall into the hole the size of a dime. For a single post it checks: does `single-post-{###}.php` exist? No? Does archive? Yeah? Use it!
 
 If nothing exists, it falls back to index. But honestly, that's probably a problem.
 
