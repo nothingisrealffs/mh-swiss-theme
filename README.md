@@ -13,6 +13,8 @@ So for this I figured out the PHP first. Basically took a copy of each PHP file 
 On research, I mixed what I love, minimalism, with styles that I liked to look at. I utilized Gemini within this sphere to help research two things: 
   1. The Aggregate CSS flow of multiple types of news websites
   2. The Benefits and Risks of different type of styles.
+
+
 This helped me settle on a version of "Swiss" theme, as noted:
   "“Swiss Style” and “Swiss Design” refer to Swiss graphic design and the associated typography that achieved international fame in the 1950s and 1960s. Swiss poster art was particularly popular at that time. But beyond posters, Swiss Design is also associated with the formation of new principles of graphic design in the middle of the 20th century. It is believed that many elements of computer design were influenced by Swiss Style"
 I like the idea that it kept my minimalism idea with a design element that is supposed to make it look purposeful. I created more pages than required because I was not paying attention to the requirements and instead pulled from the notes.
